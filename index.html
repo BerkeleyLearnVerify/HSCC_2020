@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://hscc2017.ece.illinois.edu/index.html -->
+<html lang="en" class="csstransforms csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>HSCC 2020</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./stylesheets/foundation.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./stylesheets/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./stylesheets/flexslider.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./stylesheets/responsive.css" type="text/css" media="screen">
+    <link href="./stylesheets/css.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>	<![endif]-->
+    <script id="facebook-jssdk" src="./scripts/sdk.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="./scripts/script.js"></script>
+    <!-- include jQuery Library -->
+    <script type="text/javascript" src="./scripts/jquery.js"></script>
+    <!-- efforless script below -->
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            var pxShow = 80;//height on which the button will show
+            var fadeInTime = 1000;//how slow/fast you want the button to show
+            var fadeOutTime = 1000;//how slow/fast you want the button to hide
+            var scrollSpeed = 1000;//how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
+            jQuery(window).scroll(function(){
+                if(jQuery(window).scrollTop() >= pxShow){
+                    jQuery("#backtotop").fadeIn(fadeInTime);
+                }else{
+                    jQuery("#backtotop").fadeOut(fadeOutTime);
+                }
+            });
+
+            jQuery('#backtotop a').click(function(){
+                jQuery('html, body').animate({scrollTop:0}, scrollSpeed);
+                return false;
+            });
+        });
+    </script> <script type="text/javascript" charset="utf-8" async="" src="./scripts/button.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" src="./scripts/timeline.js"></script>
+    <style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+    .fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+    .fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+<body>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- <div class="static-background"> <img alt="" src="./image/skyline.jpg"> </div> -->
+<!-- Container -->
+<div class="container">
+    <div class="row">
+        <!-- Header -->
+        <header class="three column">
+            <div class="inner-header">
+                <div id="logo">
+                    <div> <a style="color: #1583E8;" href="index.html">HSCC 2020</a></div>
+                </div>
+                <section class="menu">
+                    <nav>
+                        <ul>
+                            <!--<li> &nbsp; General Information</li> -->
+                            <!--<li class="active"><a href="index.html">home</a></li> -->
+                            <li><a href="./html/committees.html">Committees</a></li>
+                            <li><a href="./html/program.html">Program</a></li>
+                            <li><a href="./html/cfpb.html">Call for papers</a></li>
+                            <li><a href="./html/cfpd.html">Call for posters and demos</a></li>
+                            <li><a href="./html/AcceptedPapers.html">Accepted papers</a></li>
+                            <li><a href="./html/AcceptedPostersDemos.html">Accepted demos and posters</a></li>
+                            <li><a href="./html/oded.html">Oded Maler Memorial</a></li>
+                            <li><a href="./html/Awards.html">Awards</a></li>
+                            <li><a href="./html/testoftime.html">Test-of-time award nominations</a></li>
+                            <li><a href="./html/dblind.html">Double blind review FAQ</a></li>
+                            <li><a href="./html/re.html">Repeatability evaluation</a></li>
+                            <!--<li><a href="dates.html">Important Dates</a></li>-->
+                            <!--<li><a href="papers.html">Accepted papers</a></li>-->
+                            <!--<li><a href="cri.html">Camera-Ready Instructions</a></li>-->
+                            <!--<li><a href="papers.html">Accepted Papers</a></li>-->
+                            <li><a href="" target="_blank">CPS
+                                Week 2020<span style="font-weight: bold;"></span></a></li>
+                            <li><a href="" target="_blank">Venue
+                                &amp; Local Info</a></li>
+                            <li><a href="" target="_blank">Registration</a></li>
+                            <li><a href="" target="_blank">Travel/Visa</a></li>
+                            <li> <a href ="" target="_blanck">Student travel support</a> </li>
+                            <li><a href="" target="_blank">Past
+                                HSCC Conferences</a></li>
+                            <li> <br>
+                            </li>
+                        </ul>
+                        <form>
+                            <select name="URL" onchange="window.location.href=this.form.URL.options[this.form.URL.selectedIndex].value">
+                                <option value="" selected="selected" style="padding-top:20px">
+                                    ~ Menu ~ </option>
+                                <option value="index.html">Home</option>
+                                <option value="./html/committees.html">Committees</option>
+                                <option value="./html/program.html">Program</option>
+                                <option value="./html/cfpb.html">Call for papers</option>
+                                <option value="./html/cfpd.html">Call for posters and demos</option>
+                                <option value="./html/AcceptedPapers.html">Accepted papers</option>
+                                <option value="./html/AcceptedPostersDemos.html">Accepted demos and posters</option>
+                                <option value="./html/oded.html">Oded Maler Memorial</option>
+                                <option value="./html/Awards.html">Awards</option>
+                                <option value="./html/testoftime.html">Test-of-time award nominations</option>
+                                <option value="./html/dblind.html">Double blind review FAQ</option>
+                                <option value="./html/re.html">Repeatability evaluation</option>
+                                <option value="http://cpslab.cs.mcgill.ca/cpsiotweek2020/" target="_blank">CPS
+                                    Week 2020</option>
+                                <option value="http://cpslab.cs.mcgill.ca/cpsiotweek2020/" target="_blank">Venue
+                                    &amp; Local Info</option>
+                                <option value="http://cpslab.cs.mcgill.ca/cpsiotweek2020/" target="_blank">Registration</option>
+                                <option value="http://cpslab.cs.mcgill.ca/cpsiotweek2020/" target="_blank">Travel/Visa</option>
+                                <option value="http://cpslab.cs.mcgill.ca/cpsiotweek2020/" target="_blank">Student travel support</option>
+                                <option value="http://www.hscc-conference.org" target="_blank">Past
+                                    HSCC Conferences</option>
+
+                                <!--<option value="camera-ready.html">Camera-Ready Instructions</option>-->
+                                <!--<option value="papers.html">Accepted Papers</option>-->
+                                <!--<option value="program.html">Program</option>-->
+                                <!--<option value="http://www.cpsweek.org/2015/">CPS Week 2015</option>
+                                 <option value="http://www.cpsweek.org/2015/venue.html">Venue                      &amp; Local Info</option>                    <option value="http://www.cpsweek.org/2015/reg.html">Registration</option>                    <option value="http://www.cpsweek.org/2015/travel.html">Travel/Visa</option>-->
+                            </select>
+                            <noscript><input value="Submit" type="submit"></noscript> </form>
+
+                    </nav>
+                </section>
+                <section class="header-end"> </section>
+                <section class="header-end"> </section>
+                <a class="twitter-timeline" data-width="320" href="https://twitter.com/hscc_conference">Tweets by hscc_conference</a>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- Content -->
+        <div id="content" class="nine column">
+            <div class="head-title">
+                <h1><span style="color: #1583E8;">Home</span></h1>
+                <div class="head-description">
+                    <p style="background-color: #1583E8;"><br>
+                    </p>
+                </div>
+            </div>
+            <div class="page-container">
+                <article class="headings">
+                    <h1 style="text-align: center;">22nd ACM International Conference
+                        on&nbsp;</h1>
+                    <h1 style="text-align: center;">Hybrid Systems: Computation and
+                        Control </h1>
+                    <h1 style="text-align: center;"><span style="color: #1583E8;">HSCC
+                  2020</span></h1>
+                    <h3 style="text-align: center;">April, 16-18, 2020, Montreal, Canada</h3>
+                    <p><br>
+                    </p>
+
+                    <p>Notice! This page is currently under construction and will change dramatically over the few weeks.</p>
+                    <p>Welcome to the home page of the 22nd ACM International Conference on Hybrid Systems: Computation and Control (HSCC 2020).
+                        HSCC 2020 is the 22nd in a <a href="http://www.hscc-conference.org/">series of conferences</a> on all aspects of hybrid systems.
+                        It is dedicated to advancing design and analysis techniques that bridge control theory and computer science, and
+                        is expanding to new domains in security and privacy and in systems biology. The conference covers the range from theoretical
+                        results to practical applications and experiences in cyber-physical systems (CPS), mixed signal circuits, robotics,
+                        infrastructure networks, and biological models.
+                    </p><p>HSCC 2020 will be part of the ninth Cyber Physical Systems Week (CPS Week), and co-located with the International
+                    Conference on Cyber-Physical Systems (ICCPS), Information Processing in Sensor Networks (IPSN), the Real-Time and Embedded
+                    Technology and Applications Symposium (RTAS), Conference on Internet-of-Things Design and Implementation (IOTDI), and
+                    related workshops.
+                    <br>
+
+
+                    <br>
+                    <h5 style= "display: inline";><a href="https://easychair.org/smart-program/HSCC'19/">HSCC'19 program</a> is announced. </h5>
+                    <br>
+
+                    <br>
+                    <h5 style= "display: inline";>Accepted papers and posters/demos are announced.
+                        See here <a href="./html/AcceptedPapers.html">papers</a> and <a href="./html/AcceptedPostersDemos.html">posters/demos</a> for the list. </h5>
+                    <br>
+
+                    <br>
+                    <h5 style= "display: inline";>We are deeply saddened by the loss
+                        of our Steering Committee member and one of the founders of HSCC, Oded Maler.
+                        During the main conference, we will have an event, "Oded Maler - barbaric science from a captive poet”,
+                        to celebrate Oded's life and contributions. See <a href="./html/oded.html">here</a> for details. </h5>
+                    <br>
+
+                    <br>
+                    <h5 style= "display: inline";>HSCC registration is now <a href="http://cpslab.cs.mcgill.ca/cpsiotweek2020/reg.html">open</a>.
+                        If you are registered for HSCC, you do not need a separate registration for the Oded Maler session. If you plan to
+                        only attend the Oded Maler session, please register for the session. Early registration deadline is March 15, 2020.</h5>
+                    <br>
+
+
+                    <br>
+                    <h5 style= "display: inline";>New this year: Special track papers on Safe autonomy,
+                        Artificial Intelligence and Machine Learning:</h5> We invite regular submissions in topics
+                    related to safe autonomy, safe AI and safe ML in CPS. The authors can indicate if they want
+                    their papers to be considered for the special track during the submission.
+                    <a href="https://www.katz-lab.com/">Guy Katz</a>
+                    will give an invited talk in this track.
+
+
+                </p><h1>Important dates</h1>
+
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td>Abstract registration</td>
+                            <td><span style="color: #1583E8;" class="blue">Oct 10, 2018, AOE</span></td>
+                        </tr>
+                        <tr>
+                            <td>Paper submission (firm)</td>
+                            <td><span style="color: #1583E8;" class="blue">Oct 17, 2018, AOE (firm)</span><br></td>
+                        </tr>
+                        <tr>
+                            <td> RE package submission for tool/case study papers</td>
+                            <td><span style="color: #1583E8;" class="blue">Oct 22, 2018, AOE</span><br></td>
+                        </tr>
+                        <tr>
+                            <td>Rebuttal Phase</td>
+                            <td><span class="blue">Dec 3-5, 2018</span><br></td>
+                        </tr>
+                        <tr>
+                            <td>Notification</td>
+                            <td><span style="color: #1583E8;" class="blue">Dec 21, 2018, AOE</span><br></td>
+                        </tr>
+                        <tr>
+                            <td>Poster and demo submission</td>
+                            <td><span style="color: #1583E8;" class="blue">Jan 29, 2020</span> </td>
+                        </tr>
+                        <tr>
+                            <td>Poster and demo acceptance notification</td>
+                            <td><span style="color: #1583E8;" class="blue">February 27, 2017</span> </td>
+                        </tr>
+                        <!--   <tr>
+                          <td>Repeatability evaluation submission</td>
+                          <td><span style="color: #1583E8;" class="blue">TBA</span></td>
+                      </tr>
+                      <tr>
+                          <td>Camera-ready submission</td>
+                          <td><span style="color: #1583E8;" class="blue">TBA</span><br></td>
+                      </tr>-->
+                        <!--<tr>
+                          <td>Application Deadline for Student Travel Support</td>        <td><span class="blue"></span><br>                    </td>    </tr>-->
+                        <tr>
+                            <td>Final version submission</td>
+                            <td><span style="color: #1583E8;" class="blue">Feb 15, 2020</span><br></td>
+                        </tr>
+                        <tr>
+                            <td>HSCC 2020 conference</td>
+                            <td><span style="color: #1583E8;" class="blue">April 16-18, 2020 </span><br></td>
+                        </tr>
+                        <tr>
+                            <td>CPSWeek workshops</td>
+                            <td><span style="color: #1583E8;" class="blue">April 15, 2020</span><br></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <h1>Sponsors</h1>
+
+                    <table border="0" cellpadding="1" cellspacing="1" style="width:600px;background-color:white">
+                        <tbody>
+                        <tr style="background-color:white">
+                            <td><img alt="" src="./image/sigbed.jpg" style="width: 250px;"></td>
+                            <td><img alt="" src="./image/css.jpg" style="width: 168px; "></td>
+                            <td><img alt="" src="./image/toyota.jpg" style="width: 224px; height: 45px;"> </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr style="background-color:white">
+                            <td> <img alt="" src="./image/denso.jpg" style="width: 224px; "></p></td>
+                            <td><img alt="" src="./image/mathworks.jpg" style="width: 202px; "></td>
+                            <td><img alt="" src="./image/bosch.jpg" style="width: 224px;"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr style="background-color:white">
+                            <td> <img alt="" src="./image/kstate.jpg" style="width: 224px; "></p></td>
+                            <td><img alt="" src="./image/eceuom.jpg" style="width: 202px; "></td>
+
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <h1>Contact</h1>
+
+                    <span style="color: #1583E8;"><a href="mailto:hscc2020@easychair.org">email HSCC20 PC Chairs</a></span><p></p>
+                    <br>
+                    <br>
+                    <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
+                            class="twitter-follow-button twitter-follow-button-rendered" style="position: static;
+                             visibility: visible; width: 163px; height: 20px;" title="Twitter Follow Button"
+                            src="./html/followbutton.html"
+                            data-screen-name="hscc_conference"></iframe><script async="" src="./scripts/widgets.js" charset="utf-8"></script>
+
+                    <br>
+
+                    <br>
+                    <p>
+                    </p><article class="end-footer twelve column"> <p>© Copyright 2014-19 HSCC</p>
+                </article>
+                </article></div>
+
+
+        </div>
+        <!-- End content --> </div>
+</div>
+<!-- End Container -->
+<div id="backtotop" style="display: block;"> <a href="index.html#"> <img src="./image/arrow-up.jpg" alt="TOP" border="0">
+</a> </div>
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div>
+    <iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true"
+            scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame"
+            tabindex="-1" src="./html/twitter.html" style="border: none;"></iframe><iframe
+        name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true"
+        scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame"
+        tabindex="-1" src="./html/twitter.html" style="border: none;"></iframe></div></div>
+    <div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"
+        style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px;
+        border: none;" title="Twitter analytics iframe" src="./html/savedresource.html"></iframe>
+</body>
+</html>
