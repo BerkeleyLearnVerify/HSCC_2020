@@ -234,7 +234,7 @@ main ol li {
 }
 
 #submission-info > div > section {
-    max-width: 45%;
+    max-width: 40em;
 }
 
 main h3, main h4, main h2, ul {
@@ -276,11 +276,11 @@ strong {
 }
 
 #committees > div > div {
-    width: 40%;
+    width: 30em;
     border: solid black 1px;
+    padding-bottom: 1em;
     margin: 1em;
-    
-}
+ }
 
 
 img#github {
