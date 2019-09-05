@@ -55,8 +55,8 @@ footer, ul, hgroup,
 
 
 nav ul {
-    columns: 4;
     max-width: 80%;
+    columns: 3;
 }
 
 ul {
@@ -84,6 +84,10 @@ ul li {
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+
+ul li a {
+    width: 100%;
 }
 
 .menu nav ul li {
@@ -287,4 +291,24 @@ img#github {
     height: 2em;
     margin-left: 4em;
     padding: 0;
+}
+
+#program-committee-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#program-committee-list li {
+    width: 30em;
+    list-style: none;
+    border: solid black 1px;
+    text-align: center;
+    padding: 0.3em;
+    margin: 0.2em;
+}
+
+#committees p {
+    text-align: center;
 }
