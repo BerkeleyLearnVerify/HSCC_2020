@@ -189,7 +189,7 @@ main h4 {
 }
 
 main ul {
-    max-width: 50em;
+    max-width: 60em;
 }
 
 main ul li:nth-of-type(odd) {
@@ -335,4 +335,23 @@ ul.format-list p {
     font-size: 1em;
     color: black;
 
+}
+
+
+#dates img {
+    max-height: 2em;
+    padding-right: 1em;
+    border-right: solid black 2px;
+}
+
+#dates li {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#dates strong {
+    margin-left: 1em;
+    margin-right: 1em;
 }
