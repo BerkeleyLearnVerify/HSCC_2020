@@ -215,6 +215,7 @@ main ol li {
 }
 
 .boxed {
+    max-width: 40%;
     padding: 1em 3em;
     font-size: 15px;
     background-color: white;
@@ -229,12 +230,13 @@ main ol li {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 #submission-info > div > section {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
 }
 
 #submission-info > div > section {
@@ -289,7 +291,6 @@ strong {
 
 img#github {
     height: 2em;
-    margin-left: 4em;
     padding: 0;
 }
 
@@ -311,4 +312,27 @@ img#github {
 
 #committees p {
     text-align: center;
+}
+
+ul.format-list {
+    display: flex;
+    flex-direction: row;
+    background: unset;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    border-bottom: unset;
+}
+
+ul.format-list li {
+    border: solid black 1px;
+    text-align: center;
+    padding: 0;
+}
+
+ul.format-list p {
+    font-size: 1em;
+    color: black;
+
 }
