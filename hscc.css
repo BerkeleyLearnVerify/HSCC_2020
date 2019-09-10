@@ -233,6 +233,10 @@ main ol li {
     align-items: center;
 }
 
+.boxed > p {
+    font-size: 1.2em;
+}
+
 #submission-info > div {
     display: flex;
     flex-direction: row;
