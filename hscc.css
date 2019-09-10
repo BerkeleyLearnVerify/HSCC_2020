@@ -155,7 +155,7 @@ main > section:nth-of-type(odd) {
     background-color: #F5F5F5;
 }
 
-main > section:nth-of-type(1) p, #scope p {
+main > section:nth-of-type(1) p, #scope p, #submission-info > p {
     text-indent: 1.5em;
 }
 
@@ -231,6 +231,7 @@ main ol li {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 1em;
 }
 
 .boxed > p {
