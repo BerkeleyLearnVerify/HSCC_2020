@@ -373,3 +373,16 @@ ul.format-list p {
 #awards ul {
     max-width: 90em;
 }
+
+#policy-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#policy-links li {
+    margin: 1em;
+    font-size: 1.2em;
+}
