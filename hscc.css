@@ -307,14 +307,14 @@ img#github {
     padding: 0;
 }
 
-#program-committee-list {
+.program-committee-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-#program-committee-list li {
+.program-committee-list li {
     width: 30em;
     list-style: none;
     border: solid black 1px;
