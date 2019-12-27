@@ -256,8 +256,19 @@ main ol li {
     max-width: 40em;
 }
 
-main h3, main h4, main h2, ul {
+main h3, main h2, ul {
     background-color: #1c1c1cc7;
+    width: 100%;
+    text-align: center;
+}
+
+main h4 {
+    background-color: #600000ad;
+    width: 100%;
+    text-align: center;
+}
+
+main h3, main h2, ul {
     width: 100%;
     text-align: center;
 }
