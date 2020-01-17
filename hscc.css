@@ -365,7 +365,7 @@ ul.format-list p {
 #dates li, #awards li {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
 }
 
