@@ -369,6 +369,13 @@ ul.format-list p {
     align-items: center;
 }
 
+#dates li {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
 #awards li p {
     font-size: 1em;
     width: 70%;
