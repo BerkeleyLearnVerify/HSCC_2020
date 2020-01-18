@@ -369,6 +369,18 @@ ul.format-list p {
     align-items: center;
 }
 
+#awards li p {
+    font-size: 1em;
+    width: 70%;
+    text-transform: none;
+    text-align: left;
+}
+
+#awards li strong {
+    text-align: left;
+    width: 30%;
+}
+
 #dates strong, #awards strong {
     margin-left: 1em;
     margin-right: 1em;
