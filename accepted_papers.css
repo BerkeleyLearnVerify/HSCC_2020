@@ -22,4 +22,6 @@ li.paper {
     display: flex;
     flex-direction: column-reverse;
     border-bottom: 2px solid #75757570;
+    padding: 0.8em;
+    text-justify: none;
 }
