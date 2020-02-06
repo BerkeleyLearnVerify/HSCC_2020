@@ -1,5 +1,6 @@
 p#disclaimer {
     padding-top: 1em;
+    text-justify: none;
 }
 
 ul#accepted-papers {
