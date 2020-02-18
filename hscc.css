@@ -429,11 +429,18 @@ ul.format-list p {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+        margin: 0;
+        padding: 2px;
+        max-width: 95%;
     }
 
     nav ul li {
         width: 100%;
     }
 
+    nav {
+        margin: 0;
+        padding: 0;
+    }
 
 }
