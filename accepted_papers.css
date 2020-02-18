@@ -3,7 +3,7 @@ p#disclaimer {
     text-justify: none;
 }
 
-ul#accepted-papers {
+ul.accepted-papers {
     padding-top: 0.5em;
     margin: 0;
     padding-left: 0;
