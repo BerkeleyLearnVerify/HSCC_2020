@@ -1,10 +1,14 @@
+body {
+        text-justify: none;
+}
+
 @media (max-width : 1000px) {
     body {
         width: 100%;
         padding: 0;
         margin: 0;
         font-size: 0.85em;
-        text-justify: none;
+
     }
     nav li {
         font-size: 1.3em;
