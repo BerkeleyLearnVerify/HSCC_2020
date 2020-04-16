@@ -1,0 +1,68 @@
+header {
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5em;
+}
+
+header h1, header h2, header h3 {
+    text-align: center;
+}
+
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    max-width: 1000px;
+}
+
+body {
+    font-size: 18px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0.1em;
+    padding: 0.1em;
+}
+
+
+.authors {
+    text-indent: 0.5em;
+    padding: 0.3em;
+}
+
+.title {
+    font-weight: bold;
+    font-weight: larger;
+}
+
+section.complete:first-child {
+    font-size: 4em;
+}
+
+blockquote {
+    margin: 1.5em;
+}
+
+section.keynote h3 {
+    text-align: center;
+}
+
+nav ul {
+    column-count: 2;
+}
+
