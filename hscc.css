@@ -444,3 +444,12 @@ ul.format-list p {
     }
 
 }
+
+
+section#sponsors ul {
+    display: flex;
+}
+
+section#sponsors img {
+    max-height: 3em;
+}
