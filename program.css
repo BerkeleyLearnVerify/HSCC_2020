@@ -128,10 +128,16 @@ summary {
 
 
 #DLtoc {
-    font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #DLheader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 #DLheader h1 {
     font-size:16px;
@@ -139,15 +145,15 @@ summary {
 
 #DLcontent {
     font-size:12px;
+
 }
 #DLcontent h2 {
-    font-size:14px;
+    font-size: 1.5em;
     margin-bottom:5px;
 }
 #DLcontent h3 {
     font-size:12px;
-    padding-left:20px;
-    margin-bottom:0px;
+    margin-bottom: 1em;
 }
 
 #DLcontent ul{
@@ -189,18 +195,11 @@ summary {
 
 .DLlogo {
     vertical-align:middle;
-    padding-right:5px;
     border:none;
+    padding: 1em;
 }
 
-.DLcitLink {
-    margin-left:20px;
-}
 
-.DLtitleLink {
-    margin-left:20px;
-}
-
-.DLotherLink {
-    margin-left:0px;
+a, a:link, a:visited, a:hover {
+    color: #4040b9;
 }
