@@ -156,15 +156,16 @@ summary {
     margin-bottom: 1em;
 }
 
-#DLcontent ul{
-    margin-top:0px;
-    margin-bottom:0px;
+
+ul.DLauthors {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
 }
 
 .DLauthors li{
-    display: inline;
-    list-style-type: none;
-    padding-right: 5px;
+    margin-right: 0.8em;
+    list-style: none;
 }
 
 .DLauthors li:after{
