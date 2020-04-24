@@ -206,3 +206,9 @@ ul.DLauthors {
 a, a:link, a:visited, a:hover {
     color: #4040b9;
 }
+
+#recordings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
